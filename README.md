@@ -2,7 +2,7 @@
 
 [Huawei Cloud OBS](https://support.huaweicloud.com/devg-obs_php_sdk_doc_zh/zh-cn_topic_0132036136.html) storage for Laravel based on [dscmall/laravel-filesystem-obs](https://github.com/dscmall/laravel-filesystem-obs).
 
-[���̴������Ŷ�](http://www.dscmall.cn)
+[大商创技术团队](http://www.dscmall.cn)
 
 # Requirement
 

@@ -2,7 +2,7 @@
 
 [Huawei Cloud OBS](https://support.huaweicloud.com/devg-obs_php_sdk_doc_zh/zh-cn_topic_0132036136.html) storage for Laravel based on [dscmall/laravel-filesystem-obs](https://github.com/dscmall/laravel-filesystem-obs).
 
-[´óÉÌ´´¼¼ÊõÍÅ¶Ó](http://www.dscmall.cn)
+[ï¿½ï¿½ï¿½Ì´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å¶ï¿½](http://www.dscmall.cn)
 
 # Requirement
 
@@ -11,7 +11,7 @@
 # Installation
 
 ```shell
-$ composer require "dscmall/laravel-filesystem-obs" -vvv
+$ composer require "ijidan/laravel-filesystem-obs" -vvv
 ```
 
 # Configuration
@@ -37,8 +37,8 @@ $ composer require "dscmall/laravel-filesystem-obs" -vvv
             'key' => env('OBS_ACCESS_ID'), // <Your Huawei OBS AccessKeyId>
             'secret' => env('OBS_ACCESS_KEY'), // <Your Huawei OBS AccessKeySecret>
             'bucket' => env('OBS_BUCKET'), // <OBS bucket name>
-            'endpoint' => env('OBS_ENDPOINT'), // <the endpoint of OBS, E.g: (https:// or http://).obs.cn-east-2.myhuaweicloud.com | custom domain, E.g:img.abc.com> OBS ÍâÍø½Úµã»ò×Ô¶¨ÒåÍâ²¿ÓòÃû
-            'cdn_domain' => env('OBS_CDN_DOMAIN'), //<CDN domain, cdnÓòÃû> Èç¹ûisCNameÎªtrue, getUrl»áÅÐ¶ÏcdnDomainÊÇ·ñÉè¶¨À´¾ö¶¨·µ»ØµÄurl£¬Èç¹ûcdnDomainÎ´ÉèÖÃ£¬ÔòÊ¹ÓÃendpointÀ´Éú³Éurl£¬·ñÔòÊ¹ÓÃcdn
+            'endpoint' => env('OBS_ENDPOINT'), // <the endpoint of OBS, E.g: (https:// or http://).obs.cn-east-2.myhuaweicloud.com | custom domain, E.g:img.abc.com> OBS ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½â²¿ï¿½ï¿½ï¿½ï¿½
+            'cdn_domain' => env('OBS_CDN_DOMAIN'), //<CDN domain, cdnï¿½ï¿½ï¿½ï¿½> ï¿½ï¿½ï¿½isCNameÎªtrue, getUrlï¿½ï¿½ï¿½Ð¶ï¿½cdnDomainï¿½Ç·ï¿½ï¿½è¶¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Øµï¿½urlï¿½ï¿½ï¿½ï¿½ï¿½cdnDomainÎ´ï¿½ï¿½ï¿½Ã£ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½endpointï¿½ï¿½ï¿½ï¿½ï¿½ï¿½urlï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½cdn
             'ssl_verify' => env('OBS_SSL_VERIFY'), // <true|false> true to use 'https://' and false to use 'http://'. default is false,
             'debug' => env('APP_DEBUG'), // <true|false>
         ],
